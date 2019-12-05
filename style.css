@@ -1,0 +1,218 @@
+/* ----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+----------------------------------------------------------------------
+---------------------------------------------------------------------
+This website is created by 13 years old boy name abid hossain rion.Using html,css
+font-awesome icon. Warning:- Don't misbehave with this website you can use it for devolop
+yout knowledge.
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width:960px;
+    height:auto;
+    margin:0 auto;
+
+}
+.nav{
+    width:960px;
+    height: auto;
+    background-color: #000;
+}
+
+.nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+   
+}
+.nav ul li a {
+    display: block;
+    padding: 20px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    color: #478EC2;
+    background-color: #06DAEE;
+}
+
+.nav ul li ul{
+    position: absolute;
+    background: #000;
+    left:-9999px;
+}
+.nav ul li:hover ul{
+    left:0px;
+}
+.nav ul li ul li{
+    width:200px;
+    border-bottom:1px solid #fff;
+}
+.banner-cover{
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-text{
+    padding:100px;
+    text-align: center;
+}
+.banner-text button{
+font: size 20px;
+font-weight:bold;
+text-transform: uppercase;
+padding: 20px;
+border: 0;
+background: #000;
+color:#fff;
+margin:0px 8px;
+transform: (50px, 100px);
+}
+.about-logo img{
+    width:320px;
+    height:auto;
+    margin:0px 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 8px 10px 0px #0AC1E6;
+}
+.about-text{
+    width:520px;
+    height:auto;
+    padding: 0px 20px;
+    border-bottom: 2px solid #0AC1E6;
+    margin-bottom:20px;
+}
+.about-text p{
+    font-size:16px;
+    color:black;
+    line-height:22px;
+    font-weight: bold;
+    text-align: justify;
+
+}
+.about-text h2{
+    font-size:25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 2px solid #0AC1E6;
+}
+.row{
+    overflow: auto;
+}
+.col{
+    float:left;
+}
+.about-section{
+    background: #478EC2;
+    padding: 40px 0px;
+    margin-top:20px;
+}
+.title{
+    width:180px;
+    height:auto;
+    margin:0 auto;
+
+}
+.title h2{
+    font-size:20px;
+    font-weight:bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #0AC1E6;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+.about-text h2{
+    text-align: center;
+}
+.service{
+    width: 280px;
+    height: auto;
+    border: 1px solid #0AC1E6;
+    text-align: center;
+    display:inline-block;
+    margin: 10px;
+}
+.service h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+.service p{
+    font-size:15px;
+    color:black;
+    line-height: 22px;
+    padding:0px 15px;
+
+}
+.service-section{
+    background: #478EC2;
+    padding: 40px 0px;
+    margin-top:20px;
+}
+.serv-icon i{
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:#0AC1E6;
+    transition: .5s;
+}
+.serv-icon i:hover{
+    color:red;
+    transform: scale(.8);
+}
+.contact{
+    background:#fff;
+    padding:15px 15px 15px 200px;
+    box-shadow: 0px 0px 10px #ccc;
+    width:200px;
+    position: relative;
+}
+.cont-icon i{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    float: left;
+    top:8px;
+    left:15px;    
+    background: #222;
+    text-align: center;
+    color: #fff;
+    line-height: 50px;
+
+
+}
+.footer{
+
+    background: black;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    padding:20px;
+    color: white;
+   margin-top: 20px;
+   line-height: 20px;
+   height: 50px;
+}
+.f-icon:hover{
+    background-color: red;
+    transform: scale(.9);
+    transition: .3s;
+}
+.f-icon i{
+    color:white;
+}
